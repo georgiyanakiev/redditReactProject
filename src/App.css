@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -5,18 +17,34 @@
 .main {
   color: black;
   font-family: 'IBM Plex Sans', sans-serif;
-  
+}
+
+
+
+.mainBar{
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(255, 0, 212);
+  width:400px;
+
+  display: flex;
+  align-items: center;
 }
 .viewCont{
   border-width: 3px;
   border-style: solid;
   border-color: blue;
-  width: 270px;
+  width: 90px;
   display: flex;
+  
+
+
 }
 
-.menuList{
-  
+.locationMenu{
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(251, 255, 0);
 }
 .viewSection{
   
@@ -33,7 +61,10 @@
   border-style: solid;
   border-width: 3px;
   border-color:greenyellow;
-  width: 180px;
+
+  align-items: center;
+  display: flex; 
+  width: 140px;
 }
 
 #viewText{
@@ -43,6 +74,11 @@
 #sortText{
   font-size: 10px;
   font-weight: bold;
+}
+
+.sortMenuIcns{
+  width: 20px;
+  height: 20px;
 }
 
 .viewIcons{

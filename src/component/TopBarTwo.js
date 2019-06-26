@@ -3,12 +3,9 @@ import ReactDOM from 'react-dom';
 import viewLrgIcn from '../component/viewLrgIcn.png';
 import viewMedIcn from '../component/viewMedIcn.png';
 import viewSmIcn from '../component/viewSmIcn.png';
-import fireIcn from '../component/fire.png';
-import newIcn from '../component/newIcn.png';
-import boltIcn from '../component/boltIcn.png';
-import topIcn from '../component/topIcn.png';
-import risingIcn from '../component/risingIcn.png';
 import SimpleMenu from '../component/SimpleMenu';
+import LocationSimpleMenu from '../component/locationMenu';
+
 
 
 
@@ -20,9 +17,12 @@ class TopBarTwo extends React.Component{
             <div className="mainBar">
                 <div>
                   <ViewOpt /> 
-                  <SortOpt />
                 </div> 
                 <div className="sortMenu">
+                <SortOpt />
+                </div>
+                <div className="locationMenu">
+                <LocationSimpleMenu />
                 </div>
             </div>
         )
@@ -34,7 +34,7 @@ class TopBarTwo extends React.Component{
         return (
             <div className="viewCont">
                 <div className='viewSection'>
-                <SimpleMenu />
+                
                     <div>
                         <p id="viewText">VIEW</p>
                     </div>
@@ -51,20 +51,16 @@ class TopBarTwo extends React.Component{
     }
     const SortOpt = () =>{
         return (
-            <div className="sortSection">
-                <div>
-                    <p id="sortText">SORT</p>
-                </div>
-                <div className="sortIcons">
-                    <div className="dropDown">
-                        <ul className="menuList">
-                            <li><img src={fireIcn} />Hot</li>
-                            <li><img src={newIcn} />New</li>
-                            <li><img src={boltIcn} />Controversial</li>
-                            <li><img src={topIcn} />Top</li>
-                            <li><img src={risingIcn} />Rising</li>
-                        </ul>
-                    
+            <div className="sortCont">
+                <div className="sortSection">
+                    <div>
+                        <p id="sortText">SORT</p>
+                    </div>
+                    <div className="sortIcons">
+                        <div className="dropDown">
+                        <SimpleMenu />
+                        
+                        </div>
                     </div>
                 </div>
             </div>

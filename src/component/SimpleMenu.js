@@ -3,6 +3,13 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 
+import fireIcn from '../component/fire.png';
+import newIcn from '../component/newIcn.png';
+import boltIcn from '../component/boltIcn.png';
+import topIcn from '../component/topIcn.png';
+import risingIcn from '../component/risingIcn.png';
+
+
 export default function SimpleMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -17,7 +24,7 @@ export default function SimpleMenu() {
   return (
     <div>
       <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-        Open Menu
+        SortMenu
       </Button>
       <Menu
         id="simple-menu"
@@ -26,9 +33,11 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={handleClose}><img className="sortMenuIcns" src={fireIcn} />Hot</MenuItem>
+        <MenuItem onClick={handleClose}><img className="sortMenuIcns" src={newIcn} />New</MenuItem>
+        <MenuItem onClick={handleClose}><img className="sortMenuIcns" src={boltIcn} />Controversial</MenuItem>
+        <MenuItem onClick={handleClose}><img className="sortMenuIcns" src={topIcn} />Top</MenuItem>
+        <MenuItem onClick={handleClose}><img className="sortMenuIcns" src={risingIcn} />Rising</MenuItem>
       </Menu>
     </div>
   );
