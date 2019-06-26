@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PostList from './posts/PostList';
 import './App.css';
 import Topbar from './components/Topbar/Topbar';
 import Topbar1 from './components/TopBar1/TopBar1';
@@ -74,7 +75,7 @@ class App extends Component {
       </a>
       </div>
       
-
+      <PostList/>
       <Card/>
       <Searchbar/>
       <Topbar1/>
