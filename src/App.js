@@ -1,9 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import ReactDOM from 'react-dom'; 
 import './App.css';
+import TopBarTwo from '../src/component/TopBarTwo';
 
-function App() {
 
+
+class App extends React.Component{
+    render() {
+        return (
+            <div className="main">
+                <TopBarTwo />
+            </div>
+        )
+    }
 }
 
 export default App;
