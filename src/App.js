@@ -12,6 +12,8 @@ import Oc from './components/oc.png';
 import Login from './components/Login.png';
 import Signup from './components/signup.png';
 import Searchbar from './components/Searchbar/Searchbar';
+import Card from './components/Card/Card';
+import Topbarimage from './components/topbarimage.png';
 
 
 
@@ -24,6 +26,11 @@ class App extends Component {
       <div className="Logo">
       <a href="https://www.reddit.com/" >
       <img src={reddit} alt="redditicon" height="25" />
+      </a>
+      </div>
+      <div className="Topbarimage">
+      <a href="https://www.reddit.com/" >
+      <img src={Topbarimage} alt="Topbarimage"  />
       </a>
       </div>
       <div className="Logo1">
@@ -67,6 +74,8 @@ class App extends Component {
       </a>
       </div>
       
+
+      <Card/>
       <Searchbar/>
       <Topbar1/>
       <Topbar />

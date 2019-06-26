@@ -73,3 +73,11 @@ body {
     right: 110px;
     z-index: 10;
 }
+
+.Topbarimage {
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    width: 100px;
+    z-index: 10;
+}
