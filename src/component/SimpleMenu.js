@@ -1,5 +1,4 @@
-import React from './node_modules/react';
-import ReactDOM from './node_modules/react-dom';
+import React from 'react';
 
 import fireIcn from '../component/fire.png';
 import newIcn from '../component/newIcn.png';
