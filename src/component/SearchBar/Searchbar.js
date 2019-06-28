@@ -1,5 +1,5 @@
-import React, {Component} from './node_modules/react';
-import './Searchbar.css';
+import React, {Component} from 'react';
+import './SearchBar.css';
 
 class Searchbar extends Component { 
 
@@ -14,7 +14,7 @@ class Searchbar extends Component {
     render() {
         const { search } = this.state;
         return (
-            <input className="Searchbar" 
+            <input className="SearchBar" 
                 placeholder="Search reddit..."
                 onChangeText={this.updateSearch}
                 value={search}
