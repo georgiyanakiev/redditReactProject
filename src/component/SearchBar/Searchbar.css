@@ -1,0 +1,9 @@
+.Searchbar {
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    top: 4px;
+    left: 400px;
+    width: 1000px;
+    height: 30px;
+    z-index: 8;
+}

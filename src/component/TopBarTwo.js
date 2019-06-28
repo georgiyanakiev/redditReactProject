@@ -1,10 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom'; 
+import React from './node_modules/react';
 import viewLrgIcn from '../component/viewLrgIcn.png';
 import viewMedIcn from '../component/viewMedIcn.png';
 import viewSmIcn from '../component/viewSmIcn.png';
-import SimpleMenu from '../component/SimpleMenu';
-import LocationSimpleMenu from '../component/locationMenu';
+import SimpleMenu from './SimpleMenu';
+import LocationSimpleMenu from './locationMenu';
 
 
 
