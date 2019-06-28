@@ -14,7 +14,7 @@ class Searchbar extends Component {
     render() {
         const { search } = this.state;
         return (
-            <input className="Searchbar" 
+            <input className="SearchBar" 
                 placeholder="Search reddit..."
                 onChangeText={this.updateSearch}
                 value={search}
