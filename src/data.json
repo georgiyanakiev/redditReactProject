@@ -1,8 +1,20 @@
-{
-    posts: [
+[
         {
-            "title": "What us currently happening that is scaring you",
-            ""
+            "title": "What is currently happening that is scaring you",
+            "subreddit": "r/scarythoughts",
+            "userposted": "u/billy420",
+            "timePosted": "1 hour ago",
+            "preview": "its scares me when wasps get stuck in a spiders web, i just think that they are missiles gearing up and waiting to be fire upon their target"
+            
+        },
+        {
+            "title": "Life is art",
+            "subreddit": "r/Damnthatinteresting",
+            "userposted": "u/donaldTrumpDumpTruck",
+            "timePosted": "5 hours ago",
+            "preview": "",
+            "img": "https://images-na.ssl-images-amazon.com/images/I/51rBuKmA6cL._SX425_.jpg"
+            
         }
-    ]
-}
+        
+]

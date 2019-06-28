@@ -121,3 +121,20 @@
 
   padding:4px;
 }
+
+/* post card style */
+.cardCont{
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(241, 6, 6);
+}
+
+.cardTop{
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(33, 241, 6);
+  
+  font-size: 7px;
+  display: flex;
+  
+}
