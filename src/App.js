@@ -17,6 +17,7 @@ import Signup from './component/signup.png';
 
 import SearchBar from './component/SearchBar/SearchBar';
 
+
 import Topbarimage from './component/topbarimage.png';
 
 
@@ -80,8 +81,9 @@ class App extends React.Component{
       </div>
       
 
-      <SearchBar/>
-        <Topbar1/>
+      <Searchbar/>
+      <Topbar1/>
+
       <Topbar />
 
       <TopBarTwo />

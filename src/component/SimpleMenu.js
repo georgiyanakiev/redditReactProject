@@ -1,10 +1,8 @@
 import React from 'react';
 
+
+
 import ReactDOM from 'react-dom';
-
-
-
-
 
 
 import fireIcn from '../component/fire.png';
