@@ -81,7 +81,7 @@ class App extends React.Component{
       </div>
       
 
-      <Searchbar/>
+      <SearchBar/>
       <Topbar1/>
 
       <Topbar />
