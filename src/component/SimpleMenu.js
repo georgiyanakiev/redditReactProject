@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+
+
 import fireIcn from '../component/fire.png';
 import newIcn from '../component/newIcn.png';
 import boltIcn from '../component/boltIcn.png';
