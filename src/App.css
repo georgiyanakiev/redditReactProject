@@ -1,140 +1,198 @@
-
-
-
-
-
-
-
-
-
-
-
-
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .main {
-  color: black;
-  font-family: 'IBM Plex Sans', sans-serif;
+    color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
-
-
-.mainBar{
-  border-width: 3px;
-  border-style: solid;
-  border-color: rgb(255, 0, 212);
-  width:400px;
-
-  display: flex;
-  align-items: center;
-}
-.viewCont{
-  border-width: 3px;
-  border-style: solid;
-  border-color: blue;
-  width: 90px;
-  display: flex;
-  
-
-
+.mainBar {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(255, 0, 212);
+    width: 400px;
+    display: flex;
+    align-items: center;
 }
 
-.locationMenu{
-  border-width: 3px;
-  border-style: solid;
-  border-color: rgb(251, 255, 0);
-}
-.viewSection{
-  
-  border-style: solid;
-  border-width: 3px;
-  border-color:darkgoldenrod;
-  
-  display: flex;
-  align-items: baseline;
-  width: 90px;
+.viewCont {
+    border-width: 3px;
+    border-style: solid;
+    border-color: blue;
+    width: 90px;
+    display: flex;
 }
 
-.sortSection{
-  border-style: solid;
-  border-width: 3px;
-  border-color:greenyellow;
-
-  align-items: center;
-  display: flex; 
-  width: 140px;
+.locationMenu {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(251, 255, 0);
 }
 
-#viewText{
-  font-size: 10px;
-  font-weight: bold;
-}
-#sortText{
-  font-size: 10px;
-  font-weight: bold;
-}
-
-.sortMenuIcns{
-  width: 20px;
-  height: 20px;
+.viewSection {
+    border-style: solid;
+    border-width: 3px;
+    border-color: darkgoldenrod;
+    display: flex;
+    align-items: baseline;
+    width: 90px;
 }
 
-.viewIcons{
-  border-style: solid;
-  border-width: 3px;
-  border-color: rgb(241, 6, 6);
-
-
-  display: flex;
-  width: 100%;
-  height: 100%;
+.sortSection {
+    border-style: solid;
+    border-width: 3px;
+    border-color: greenyellow;
+    align-items: center;
+    display: flex;
+    width: 140px;
 }
 
-
-
-
-#viewLrgIcn{
-  width: 12px;
-  height: 12px;
-
-  position: relative;
-  top: 1px;
-  padding:4px;
+#viewText {
+    font-size: 10px;
+    font-weight: bold;
 }
-#viewMedIcn{
-  width: 11px;
-  height: 17px;
 
-  position: relative;
-  bottom: 2px;
-
-  padding:4px;
+#sortText {
+    font-size: 10px;
+    font-weight: bold;
 }
-#viewSmIcn{
-  width: 13px;
-  height: 11px;
 
-  position: relative;
-  top: 2px;
-
-  padding:4px;
+.sortMenuIcns {
+    width: 20px;
+    height: 20px;
 }
+
+.viewIcons {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(241, 6, 6);
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#viewLrgIcn {
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 1px;
+    padding: 4px;
+}
+
+#viewMedIcn {
+    width: 11px;
+    height: 17px;
+    position: relative;
+    bottom: 2px;
+    padding: 4px;
+}
+
+#viewSmIcn {
+    width: 13px;
+    height: 11px;
+    position: relative;
+    top: 2px;
+    padding: 4px;
+}
+
 
 /* post card style */
-.cardCont{
-  border-style: solid;
-  border-width: 3px;
-  border-color: rgb(241, 6, 6);
+
+.cardCont {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(241, 6, 6);
 }
 
-.cardTop{
-  border-style: solid;
-  border-width: 3px;
-  border-color: rgb(33, 241, 6);
-  
-  font-size: 7px;
+.cardTop {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(33, 241, 6);
+    font-size: 7px;
+    display: flex;
+}
+
+body {
+    background-color: rgb(200, 201, 206);
+}
+
+
+/* .App {
+  width: 100%;
+  height: 400px;
   display: flex;
-  
+  justify-content: center;
+  align-items: center;
+} */
+
+.Logo {
+    position: absolute;
+    top: 7px;
+    left: 23px;
+    z-index: 10;
+}
+
+.Logo1 {
+    position: absolute;
+    top: 7px;
+    left: 50px;
+    z-index: 10;
+}
+
+.Home {
+    position: absolute;
+    top: 7px;
+    left: 130px;
+    z-index: 10;
+}
+
+.Popular {
+    position: absolute;
+    top: 7px;
+    left: 210px;
+    z-index: 10;
+}
+
+.Populararrow {
+    position: absolute;
+    top: 10px;
+    right: 465px;
+    z-index: 10;
+}
+
+.Scale {
+    position: absolute;
+    top: 10px;
+    right: 430px;
+    z-index: 10;
+}
+
+.Oc {
+    position: absolute;
+    top: 10px;
+    right: 390px;
+    z-index: 10;
+}
+
+.Login {
+    position: absolute;
+    top: 5px;
+    right: 250px;
+    z-index: 10;
+}
+
+.Signup {
+    position: absolute;
+    top: 7px;
+    right: 110px;
+    z-index: 10;
+}
+
+.Topbarimage {
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    width: 100px;
+    z-index: 10;
 }
