@@ -28,8 +28,6 @@ class TopBarTwo extends React.Component{
         )
     }
 }
-
-
     const ViewOpt = () =>{
         return (
             <div className="viewCont">

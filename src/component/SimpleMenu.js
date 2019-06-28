@@ -1,7 +1,5 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
+import ReactDOM from 'react-dom';
 
 import fireIcn from '../component/fire.png';
 import newIcn from '../component/newIcn.png';
@@ -10,36 +8,45 @@ import topIcn from '../component/topIcn.png';
 import risingIcn from '../component/risingIcn.png';
 
 
-export default function SimpleMenu() {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+class SimpleMenu extends React.Component {
+     
+    state = {
+        value: null,
+        active: 'hot'
+    }
 
-  function handleClick(event) {
-    setAnchorEl(event.currentTarget);
-  }
+render() {
 
-  function handleClose() {
-    setAnchorEl(null);
-  }
+    return (
+        <div>
 
-  return (
-    <div>
-      <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-        SortMenu
-      </Button>
-      <Menu
-        id="simple-menu"
-        anchorEl={anchorEl}
-        keepMounted
-        open={Boolean(anchorEl)}
-        onClose={handleClose}
-      >
-        <MenuItem onClick={handleClose}><img className="sortMenuIcns" src={fireIcn} />Hot</MenuItem>
-        <MenuItem onClick={handleClose}><img className="sortMenuIcns" src={newIcn} />New</MenuItem>
-        <MenuItem onClick={handleClose}><img className="sortMenuIcns" src={boltIcn} />Controversial</MenuItem>
-        <MenuItem onClick={handleClose}><img className="sortMenuIcns" src={topIcn} />Top</MenuItem>
-        <MenuItem onClick={handleClose}><img className="sortMenuIcns" src={risingIcn} />Rising</MenuItem>
-      </Menu>
-    </div>
-  );
+                    <div>
+                    <img className="sortMenuIcns" src={fireIcn} 
+                    />Hot
+                    </div>
+
+                    <div>
+                    <img className="sortMenuIcns" src={newIcn} 
+                    />New
+                    </div>
+
+                    <div>
+                    <img className="sortMenuIcns" src={boltIcn} 
+                    />Controversial
+                    </div>
+
+                    <div>
+                    <img className="sortMenuIcns" src={topIcn} 
+                    />Top
+                    </div>
+
+                    <div>
+                    <img className="sortMenuIcns" src={risingIcn} 
+                    />Rising
+                    </div>
+            
+        </div>
+    );
 }
-// export default SimpleMenu;
+ }
+export default SimpleMenu;
