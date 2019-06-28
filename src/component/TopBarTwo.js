@@ -1,4 +1,4 @@
-import React from './node_modules/react';
+import React from 'react';
 import viewLrgIcn from '../component/viewLrgIcn.png';
 import viewMedIcn from '../component/viewMedIcn.png';
 import viewSmIcn from '../component/viewSmIcn.png';
