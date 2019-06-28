@@ -4,6 +4,7 @@ import TopBarTwo from './component/TopBarTwo';
 import PostCard from './component/postCard';
 import Topbar from './component/Topbar/Topbar';
 import Topbar1 from './component/TopBar1/TopBar1';
+
 import reddit from './component/reddit.png';
 import reddit1 from './component/reddit1.png';
 import Home from './component/redditHome.png';
@@ -13,7 +14,10 @@ import Scale from './component/scale.png';
 import Oc from './component/oc.png';
 import Login from './component/Login.png';
 import Signup from './component/signup.png';
-import Searchbar from './component/SearchBar/Searchbar';
+
+import SearchBar from './component/SearchBar/SearchBar';
+
+
 import Topbarimage from './component/topbarimage.png';
 
 
@@ -76,9 +80,12 @@ class App extends React.Component{
       </a>
       </div>
       
+
       <Searchbar/>
       <Topbar1/>
+
       <Topbar />
+
       <TopBarTwo />
       <PostCard />
     </div>

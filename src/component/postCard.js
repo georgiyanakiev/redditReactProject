@@ -16,7 +16,7 @@ class PostCard extends React.Component{
                                 <h2  id="cardSubreddit">{postDetail.subreddit}</h2>
                                 <h2 id="cardUser">{postDetail.userposted}</h2>
                                 <h2 id="cardTimePosted">{postDetail.timePosted}</h2>
-                                <p>{postDetail.img}</p>
+                                <img src={postDetail.img} />
                                 </div>
                             <p id="cardPreview">{postDetail.preview}</p>
                         </div>

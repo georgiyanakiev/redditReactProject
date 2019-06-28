@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import './Searchbar.css';
+
+import './SearchBar.css';
+
 
 class Searchbar extends Component { 
 
@@ -14,7 +16,7 @@ class Searchbar extends Component {
     render() {
         const { search } = this.state;
         return (
-            <input className="Searchbar" 
+            <input className="SearchBar" 
                 placeholder="Search reddit..."
                 onChangeText={this.updateSearch}
                 value={search}
