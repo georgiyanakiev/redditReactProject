@@ -4,7 +4,6 @@ import TopBarTwo from './component/TopBarTwo';
 import PostCard from './component/postCard';
 import Topbar from './component/Topbar/Topbar';
 import Topbar1 from './component/TopBar1/TopBar1';
-
 import reddit from './component/reddit.png';
 import reddit1 from './component/reddit1.png';
 import Home from './component/redditHome.png';
