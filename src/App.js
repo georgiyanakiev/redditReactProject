@@ -13,10 +13,7 @@ import Scale from './component/scale.png';
 import Oc from './component/oc.png';
 import Login from './component/Login.png';
 import Signup from './component/signup.png';
-
 import SearchBar from './component/SearchBar/SearchBar';
-
-
 import Topbarimage from './component/topbarimage.png';
 
 
@@ -82,11 +79,9 @@ class App extends React.Component{
 
       <SearchBar/>
       <Topbar1/>
-
-      <Topbar />
-
-      <TopBarTwo />
-      <PostCard />
+    <Topbar />
+    <TopBarTwo />
+     <PostCard />
     </div>
     </div>
         )
